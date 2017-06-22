@@ -6,6 +6,8 @@ class CreateShows < ActiveRecord::Migration
     create_table :shows do |t|
       #primary key of :id is created for us!
       t.string :name
+      t.string :genre
+      # t.integer :network_id
     end
   end
 end
